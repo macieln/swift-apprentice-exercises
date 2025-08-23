@@ -1,0 +1,23 @@
+# Xcode build and user data
+DerivedData/
+build/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+
+# Swift Package Manager
+/.build/
+/Packages/
+/.swiftpm/
+
+# Playgrounds (ignore timeline & workspace noise, keep Sources + Contents.swift)
+/*.playground/timeline.xctimeline
+/*.playground/playground.xcworkspace/
+timeline.xctimeline
+playground.xcworkspace/
+
+# macOS Finder junk
+.DS_Store
